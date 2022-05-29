@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	
+	<style>
+#header {
+	background-color:#0b2545;
+	color:white;
+	display:flex;
+}
+
+#header a {
+	color:white;
+	margin-top:38px;
+	text-decoration:underline;
+	
+}
+
+#header h1 {
+	margin-left:2%;
+}
+
+#outrasPerguntas {
+	margin-left:75%;
+}
+#resultado {
+	background-color:white;
+	border-color:#98e5eb;
+	border-width:4px;
+	margin-left:50%;
+	margin-right:50%;
+}
+p {
+	margin-left:50%;
+	margin-right:50%;
+	text-align:center;
+}
+	</style>
+</head>
+<body>
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+<br><br><br>
+<button id="resultado" onclick="correctFunction(this.id)" >Meu resultado</button>
+<p id="finalScore"></p>
+<p id="finalChute"></p>
+
+</body>
+</html>

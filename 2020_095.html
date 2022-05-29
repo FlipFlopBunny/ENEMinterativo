@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 095 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 095</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Para garantir que produtos eletrônicos estejam
+armazenados de forma adequada antes da venda,
+algumas empresas utilizam cartões indicadores de
+umidade nas embalagens desses produtos. Alguns
+desses cartões contêm um sal de cobalto que
+muda de cor em presença de água, de acordo com
+a equação química:</p>
+<img src="095.jpg" id="equation">
+<br>
+<p id="enunciado"> 
+Como você procederia para reutilizar, num curto
+intervalo de tempo, um cartão que já estivesse com a
+coloração rosa?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)Resfriaria no congelador.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)Borrifaria com spray de água.</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)Envolveria com papel alumínio.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >d)Aqueceria com secador de cabelos.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)Embrulharia em guardanapo de papel.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_094.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_096.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title> Linguagens 024 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 024</h2>
+<h4>Linguagens Prova Amarela</h4>
+<p>O conceito de saúde formulado na histórica VIII Conferência Nacional de Saúde, no ano de 1986, ficou conhecido como um “conceito ampliado” de saúde, conforme ilustrado na figura. Esse conceito foi fruto de intensa mobilização em diversos países da América Latina nas décadas de 1970 e 1980, como resposta à crise dos sistemas públicos de saúde.</p>
+<img src="024.jpg">
+<a id="textsrc">BATISTELLA, C. Abordagens contemporâneas do conceito de saúde. Disponível em: www.dihs.ensp.fi ocruz.br. Acesso em: 23 set. 2020</a>
+<br>
+<p id="enunciado"> 
+Com base no conceito apresentado no texto, a saúde é consequência direta do(a)
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)adoção de um estilo de vida ativo por parte dos 
+indivíduos.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)disponibilidade de emprego no mercado de trabalho.</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)condição habitacional presente nas cidades.</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)acesso ao sistema educacional.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)forma de organização social.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_023.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_025.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

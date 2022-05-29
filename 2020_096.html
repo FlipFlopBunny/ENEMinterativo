@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 096 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 096</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Um estudante tem uma fonte de tensão com corrente
+contínua que opera em tensão fixa de 12 V. Como
+precisa alimentar equipamentos que operam em tensões
+menores, ele emprega quatro resistores de 100 Ω para
+construir um divisor de tensão. Obtém-se este divisor
+associando os resistores, como exibido na figura. Os
+aparelhos podem ser ligados entre os pontos A, B, C, D e
+E, dependendo da tensão especificada.</p>
+<img src="096.jpg">
+<p>Ele tem um equipamento que opera em 9,0 V com
+uma resistência interna de 10 kΩ.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Entre quais pontos do divisor de tensão esse equipamento
+deve ser ligado para funcionar corretamente e qual será o
+valor da intensidade da corrente nele estabelecida?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)Entre A e C; 30 mA.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)Entre B e E; 30 mA.</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)Entre A e D; 1,2 mA.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >d)Entre B e E; 0,9 mA.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)Entre A e E; 0,9 mA.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_095.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_097.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

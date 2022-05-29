@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 102 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 102</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Em uma pesquisa estão sendo testados
+cinco quimioterápicos quanto à sua capacidade
+antitumoral. No entanto, para o tratamento de
+pacientes, sabe-se que é necessário verificar também
+o quanto cada composto agride células normais. Para o
+experimento, partiu-se de cultivos de células tumorais
+(colunas escuras na figura) e células normais (colunas
+claras) com o mesmo número de células iniciais.
+Dois grupos-controle não receberam quimioterápicos:
+controle de células tumorais (CT) e de células normais
+(CN). As colunas I, II, III, IV e V correspondem aos
+grupos tratados com os cinco compostos. O número de
+células viáveis após os tratamentos está representado
+pelas colunas.</p>
+<img src="102.jpg">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Qual quimioterápico deve ser escolhido para tratamento
+desse tipo de tumor?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)I</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >b)II</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)III</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)IV</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)V</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_101.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_103.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

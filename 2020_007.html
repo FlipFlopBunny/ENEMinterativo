@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title> Linguagens 007 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 007</h2>
+<h4>Linguagens Prova Amarela</h4>
+<p>
+<b>Mulher tem coração clinicamente partido após morte de cachorro</b><br><br>
+Como explica o The New England Journal of Medicine, a paciente, chamada Joanie Simpson, tinha sinais de infarto, como dores no peito e pressão alta, e apresentava problemas nas artérias coronárias. Ao fazerem um ecocardiograma, os médicos encontraram o problema: cardiomiopatia de Takotsubo, conhecida como síndrome do coração partido.
+Essa condição médica tipicamente acontece com mulheres em fase pós-menstrual e pode ser precedida por um evento muito estressante ou emotivo. Nesses casos, o coração apresenta um movimento discinético transitório da parede anterior do ventrículo esquerdo, com acentuação da cinética da base ventricular, de acordo com um artigo médico brasileiro que relata um caso
+semelhante. Simpson foi encaminhada para casa após dois dias e passou a tomar medicamentos regulares. 
+Ao Washington Post, ela contou que estava quase inconsolável após a perda do seu animal de estimação, um cão da raça yorkshire terrier. Recuperada após cerca de um ano, ela diz que não abrirá mão de ter um animal de estimação porque aprecia a companhia e o amor que os cachorros dão aos humanos. O caso aconteceu em Houston, nos Estados Unidos. 
+</p>
+<a id="textsrc">Disponível em: https://exame.abril.com.br. Acesso em: 1 dez. 2017.</a>
+<br>
+<p id="enunciado"> 
+Pelas características do texto lido, que trata das consequências da perda de um animal de estimação, considera-se que ele se enquadra no gênero
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)conto, pois exibe a história de vida de Joanie Simpson. </button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)depoimento, pois expõe o sofrimento da dona do 
+animal.</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)reportagem, pois discute cientificamente a 
+cardiomiopatia.</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)relato, pois narra um fato estressante vivido pela 
+paciente.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)notícia, pois divulga fatos sobre a síndrome do 
+coração partido.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior"  onclick="anteriorFunction('2020_006.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_008.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>
