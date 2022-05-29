@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 112 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 112</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Há muitos mitos em relação a como se proteger de
+raios, cobrir espelhos e não pegar em facas, garfos e
+outros objetos metálicos, por exemplo. Mas, de fato, se
+houver uma tempestade com raios, alguns cuidados são
+importantes, como evitar ambientes abertos. Um bom
+abrigo para proteção é o interior de um automóvel, desde
+que este não seja conversível.</p>
+<a id="textsrc">OLIVEIRA, A. Raios nas tempestades de verão. Disponível em:
+http://cienciahoje.uol.com.br. Acesso em: 10 dez. 2014 (adaptado).</a>
+<br>
+<p id="enunciado"> 
+Qual o motivo físico da proteção fornecida pelos
+automóveis, conforme citado no texto?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)Isolamento elétrico dos pneus.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)Efeito de para-raios da antena.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >c)Blindagem pela carcaça metálica.</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)Escoamento da água pela lataria.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)Aterramento pelo fio terra da bateria.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_111.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_113.html')">Proxima&raquo;</a>
+</div>
+
+</body>
+
+</html>

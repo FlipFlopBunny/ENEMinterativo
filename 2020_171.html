@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 171 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 171</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>A exposição a barulhos excessivos, como os que
+percebemos em geral em trânsitos intensos, casas
+noturnas e espetáculos musicais, podem provocar
+insônia, estresse, infarto, perda de audição, entre outras
+enfermidades. De acordo com a Organização Mundial
+da Saúde, todo e qualquer som que ultrapasse os 55
+decibéis (unidade de intensidade do som) já pode ser
+considerado nocivo para a saúde. O gráfico foi elaborado
+a partir da medição do ruído produzido, durante um dia,
+em um canteiro de obras.</p>
+<img src="171.jpg" width="100%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Nesse dia, durante quantas horas o ruído esteve acima
+de 55 decibéis?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)5</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)8</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)10</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)11</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)13</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_170.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_172.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

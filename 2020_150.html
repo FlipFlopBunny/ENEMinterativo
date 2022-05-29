@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 150 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 150</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>A caixa-d’água de um edifício terá a forma de um
+paralelepípedo retângulo reto com volume igual a
+28 080 litros. Em uma maquete que representa o edifício,
+a caixa-d’água tem dimensões 2 cm × 3,51 cm × 4 cm.
+Dado: 1 dm³ = 1 L.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+A escala usada pelo arquiteto foi
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)1 : 10</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >b)1 : 100</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)1 : 1 000</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)1 : 10 000</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)1 : 100 000</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_149.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_151.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

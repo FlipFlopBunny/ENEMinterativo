@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 109 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 109</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Dois engenheiros estão verificando se uma cavidade
+perfurada no solo está de acordo com o planejamento
+de uma obra, cuja profundidade requerida é de 30 m.
+O teste é feito por um dispositivo denominado oscilador
+de áudio de frequência variável, que permite relacionar
+a profundidade com os valores da frequência de duas
+ressonâncias consecutivas, assim como em um tubo
+sonoro fechado. A menor frequência de ressonância que
+o aparelho mediu foi 135 Hz. Considere que a velocidade
+do som dentro da cavidade perfurada é de 360 m s<sup>-1</sup>.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Se a profundidade estiver de acordo com o projeto, qual
+será o valor da próxima frequência de ressonância que
+será medida?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)137 Hz.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)138 Hz.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >c)141 Hz.</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)144 Hz.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)159 Hz.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_108.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_110.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

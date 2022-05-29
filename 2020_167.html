@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 167 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 167</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>O gerente de uma loja de cosméticos colocou à venda
+cinco diferentes tipos de perfume, tendo em estoque na
+loja as mesmas quantidades de cada um deles. O setor
+de controle de estoque encaminhou ao gerente registros
+gráficos descrevendo os preços unitários de cada
+perfume, em real, e a quantidade vendida de cada um
+deles, em percentual, ocorrida no mês de novembro.</p>
+<img src="167.jpg" width="100%">
+<p>Dados a chegada do final de ano e o aumento das
+vendas, a gerência pretende aumentar a quantidade
+estocada do perfume do tipo que gerou a maior
+arrecadação em espécie, em real, no mês de novembro.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Nessas condições, qual o tipo de perfume que deverá ter
+maior reposição no estoque?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)I</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)II</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)III</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >d)IV</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)V</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_166.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_168.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

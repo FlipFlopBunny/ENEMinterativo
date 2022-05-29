@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 131 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 131</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Herschel, em 1880, começou a escrever sobre a condensação da luz solar no foco de uma lente e queria verificar
+de que maneira os raios coloridos contribuem para o aquecimento. Para isso, ele projetou sobre um anteparo o espectro
+solar obtido com um prisma, colocou termômetros nas diversas faixas de cores e verificou nos dados obtidos que um
+dos termômetros iluminados indicou um aumento de temperatura maior para uma determinada faixa de frequências.</p>
+<a id="textsrc">SAYURI, M.; GASPAR, M. B. Infravermelho na sala de aula. Disponível em: www.cienciamao.usp.br. Acesso em: 15 ago. 2016 (adaptado).</a>
+<p>Para verificar a hipótese de Herschel, um estudante montou o dispositivo apresentado na figura. Nesse aparato,
+cinco recipientes contendo água, à mesma temperatura inicial, e separados por um material isolante térmico e refletor são
+posicionados lado a lado (A, B, C, D e E) no interior de uma caixa de material isolante térmico e opaco. A luz solar, ao entrar
+na caixa, atravessa o prisma e incide sobre os recipientes. O estudante aguarda até que ocorra o aumento da temperatura
+e a afere em cada recipiente.</p>
+<img src="131.jpg">
+<br>
+<p id="enunciado"> 
+Em qual dos recipientes a água terá maior temperatura ao final do experimento?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_130.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_132.html')">Proxima&raquo;</a>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 169 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 169</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>A lei municipal para a edificação de casas em lotes
+de uma cidade determina que sejam obedecidos os
+seguintes critérios:</p>
+<ul>
+<li>afastamento mínimo de 4 m da rua;</li>
+<li>afastamento mínimo de 1 m da divisa com outro lote;</li>
+<li>área total construída da casa entre 40% e 50% da
+área total do lote.</li>
+</ul>
+<p>Um construtor submeteu para aprovação na
+prefeitura dessa cidade uma planta com propostas para a
+construção de casas em seus 5 lotes. Cada lote tem área
+medindo 200 m².</p>
+<p>A imagem apresenta um esquema, sem escala,
+no qual estão representados os lotes, as ruas e os
+afastamentos considerados nos projetos entre as
+casas e as divisas dos lotes. As medidas indicadas no
+esquema estão expressas em metro.</p>
+<img src="169.jpg" width="100%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+A prefeitura aprovará apenas a planta da casa
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)1</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)2</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)3</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)4</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)5</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_168.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_170.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

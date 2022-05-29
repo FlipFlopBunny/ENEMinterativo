@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 145 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 145</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Um processo de aeração, que consiste na introdução
+de ar num líquido, acontece do seguinte modo: uma
+bomba B retira o líquido de um tanque T1 e o faz passar
+pelo aerador A1, que aumenta o volume do líquido em
+15%, e em seguida pelo aerador A2, ganhando novo
+aumento de volume de 10%. Ao final, ele fica armazenado
+num tanque T2, de acordo com a figura.</p>
+<img src="145.jpg" width="70%">
+<p>Os tanques T1 e T2 são prismas retos de bases
+retangulares, sendo que a base de T1 tem comprimento c e
+largura L, e a base de T2 tem comprimento
+c/2
+e largura 2L.</p>
+<p>Para finalizar o processo de aeração sem
+derramamento do líquido em T2, o responsável deve
+saber a relação entre a altura da coluna de líquido que já
+saiu de T1, denotada por X, e a altura da coluna de líquido
+que chegou a T2, denotada por y.</p>
+<a id="textsrc">Disponível em: www.dec.ufcg.edu.br. Acesso em: 21 abr. 2015.</a>
+<br>
+<p id="enunciado"> 
+A equação que relaciona as medidas das alturas y e x é
+dada por
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)y = 1,265x</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)y = 1,250x</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)y = 1,150x</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)D y = 1,125x</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)y = x</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_144.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_146.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

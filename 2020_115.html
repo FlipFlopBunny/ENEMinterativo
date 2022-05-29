@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 115 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 115</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Pesquisadores coletaram amostras de água de um
+rio em pontos diferentes, distantes alguns quilômetros
+um do outro. Ao longo do rio, há locais de águas limpas,
+como também locais que recebem descarga de esgoto
+de área urbana, e locais onde há decomposição ativa
+com ausência de peixes. Os pesquisadores analisaram
+dois parâmetros: oxigênio dissolvido (OD) e demanda
+bioquímica de oxigênio (DBO) em cada ponto de coleta
+de água, obtendo o gráfico:</p>
+<img src="115.jpg">
+<p>O OD é proveniente da atmosfera e da fotossíntese
+que ocorre no curso-d’água e sua concentração é
+função das variáveis físicas, químicas e bioquímicas
+locais. A DBO é a quantidade de oxigênio consumido
+por microrganismos em condições aeróbicas para
+degradar uma determinada quantidade de matéria
+orgânica, durante um período de tempo, numa
+temperatura de incubação específica.</p>
+<a id="textsrc">Disponível em: www.programaaguaazul.rn.gov.br. Acesso em: 16 ago. 2014 (adaptado).</a>
+<br>
+<p id="enunciado"> 
+Qual ponto de amostragem da água do rio está mais
+próximo ao local em que o rio recebe despejo de esgoto?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)1</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)2</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)3</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)4</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)5</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_114.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_116.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

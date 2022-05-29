@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 152 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 152</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>O proprietário de um apartamento decidiu instalar
+porcelanato no piso da sala. Essa sala tem formato
+retangular com 3,2 m de largura e 3,6 m de comprimento.
+As peças do porcelanato têm formato de um quadrado
+com lado medindo 80 cm. Esse porcelanato é vendido em
+dois tipos de caixas, com os preços indicados a seguir.</p>
+<ul>
+<li>Caixas do tipo A: 4 unidades de piso, R$ 35,00;</li>
+<li>Caixas do tipo B: 3 unidades de piso, R$ 27,00.</li>
+</ul>
+<p>Na instalação do porcelanato, as peças podem ser
+recortadas e devem ser assentadas sem espaçamento
+entre elas, aproveitando-se ao máximo os recortes
+feitos.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+A compra que atende às necessidades do proprietário,
+proporciona a menor sobra de pisos e resulta no menor
+preço é
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)5 caixas do tipo A.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)1 caixa do tipo A e 4 caixas do tipo B.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >c)3 caixas do tipo A e 2 caixas do tipo B.</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)5 caixas do tipo A e 1 caixa do tipo B.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)6 caixas do tipo B.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_151.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_153.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

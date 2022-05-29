@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 157 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 157</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Enquanto um ser está vivo, a quantidade de carbono
+14 nele existente não se altera. Quando ele morre, essa
+quantidade vai diminuindo. Sabe-se que a meia-vida do
+carbono 14 é de 5 730 anos, ou seja, num fóssil de um
+organismo que morreu há 5 730 anos haverá metade do
+carbono 14 que existia quando ele estava vivo. Assim,
+cientistas e arqueólogos usam a seguinte fórmula para
+saber a idade de um fóssil encontrado: Q t = Q0 ∙ 2 − t
+5730
+em que t é o tempo, medido em ano, Q t é a quantidade
+de carbono 14 medida no instante t e Q0 é a quantidade
+de carbono 14 no ser vivo correspondente.</p>
+<p>Um grupo de arqueólogos, numa de suas expedições,
+encontrou 5 fósseis de espécies conhecidas e mediram
+a quantidade de carbono 14 neles existente. Na tabela
+temos esses valores juntamente com a quantidade de
+carbono 14 nas referidas espécies vivas.</p>
+<img src="157.jpg" width="100%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+O fóssil mais antigo encontrado nessa expedição foi
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)1</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >b)2</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)3</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)4</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)5</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_156.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_158.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

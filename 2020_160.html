@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 160 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 160</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Suponha que uma equipe de corrida de automóveis
+disponha de cinco tipos de pneu (I, II, III, IV, V), em que
+o fator de eficiência climática EC (índice que fornece o
+comportamento do pneu em uso, dependendo do clima)
+é apresentado:</p>
+<ul>
+<li>EC do pneu I: com chuva 6, sem chuva 3;</li>
+<li>EC do pneu II: com chuva 7, sem chuva −4;</li>
+<li>EC do pneu III: com chuva −2, sem chuva 10;</li>
+<li>EC do pneu IV: com chuva 2, sem chuva 8;</li>
+<li>EC do pneu V: com chuva −6, sem chuva 7.</li>
+</ul>
+<p>O coeficiente de rendimento climático (CRC) de um
+pneu é calculado como a soma dos produtos dos fatores
+de EC, com ou sem chuva, pelas correspondentes
+probabilidades de se ter tais condições climáticas:
+ele é utilizado para determinar qual pneu deve ser
+selecionado para uma dada corrida, escolhendo-se o
+pneu que apresentar o maior CRC naquele dia. No dia
+de certa corrida, a probabilidade de chover era de 70%
+e o chefe da equipe calculou o CRC de cada um dos
+cinco tipos de pneu.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+O pneu escolhido foi
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)I</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)II</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)III</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)IV</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)V</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_159.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_161.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

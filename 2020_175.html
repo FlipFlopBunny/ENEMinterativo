@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 175 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 175</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Num recipiente com a forma de paralelepípedo
+reto-retângulo, colocou-se água até a altura de 8 cm e
+um objeto, que ficou flutuando na superfície da água.</p>
+<p>Para retirar o objeto de dentro do recipiente, a altura
+da coluna de água deve ser de, pelo menos, 15 cm. Para
+a coluna de água chegar até essa altura, é necessário
+colocar dentro do recipiente bolinhas de volume igual a
+6 cm³ cada, que ficarão totalmente submersas.</p>
+<img src="175.jpg" width="100%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+O número mínimo de bolinhas necessárias para que se
+possa retirar o objeto que flutua na água, seguindo as
+instruções dadas, é de
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)14</button>
+<button type="button" onclick="correctFunction(this.id)" id="a" >b)16</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >c)18</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >d)30</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >e)34</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_174.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_176.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

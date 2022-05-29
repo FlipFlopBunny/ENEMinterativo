@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 125 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 125</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<img src="125.jpg" width="60%">
+<a id="textsrc">DAVIS, J. Disponível em: http://garfield.com. Acesso em: 10 fev. 2015.</a>
+<br>
+<p id="enunciado"> 
+Por qual motivo ocorre a eletrização ilustrada na tirinha?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)Troca de átomos entre a calça e os pelos do gato.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)Diminuição do número de prótons nos pelos do gato.</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)Criação de novas partículas eletrizadas nos pelos do gato.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >d)Movimentação de elétrons entre a calça e os pelos do gato.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)Repulsão entre partículas elétricas da calça e dos pelos do gato.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_124.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_126.html')">Proxima&raquo;</a>
+</div>
+
+</body>
+
+</html>

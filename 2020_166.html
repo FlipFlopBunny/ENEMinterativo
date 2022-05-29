@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 166 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 166</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>O artista gráfico holandês Maurits Cornelius Escher
+criou belíssimas obras nas quais as imagens se repetiam,
+com diferentes tamanhos, induzindo ao raciocínio de
+repetição infinita das imagens. Inspirado por ele, um artista
+fez um rascunho de uma obra na qual propunha a ideia
+de construção de uma sequência de infinitos quadrados,
+cada vez menores, uns sob os outros, conforme indicado
+na figura.</p>
+<img src="166.jpg">
+<p>O quadrado <i>PRST</i>, com lado de medida 1, é o ponto
+de partida. O segundo quadrado é construído sob ele
+tomando-se o ponto médio da base do quadrado anterior
+e criando-se um novo quadrado, cujo lado corresponde
+à metade dessa base. Essa sequência de construção se
+repete recursivamente.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Qual é a medida do lado do centésimo quadrado
+construído de acordo com esse padrão?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a) (1/2)<sup>100</sup></button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >b)(1/2)<sup>99</sup></button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c) (1/2)<sup>97</sup></button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d) (1/2)<sup>-98</sup></button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e) (1/2)<sup>-99</sup></button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_165.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_167.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 153 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 153</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Um hotel de 3 andares está sendo construído. Cada
+andar terá 100 quartos. Os quartos serão numerados de
+100 a 399 e cada um terá seu número afixado à porta.
+Cada número será composto por peças individuais, cada
+uma simbolizando um único algarismo.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Qual a quantidade mínima de peças, simbolizando o
+algarismo 2, necessárias para identificar o número de
+todos os quartos?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)160</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)157</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)130</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)120</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)60</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_152.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_154.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

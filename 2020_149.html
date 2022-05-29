@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 149 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 149</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Uma empresa de ônibus utiliza um sistema de
+vendas de passagens que fornece a imagem de todos
+os assentos do ônibus, diferenciando os assentos já
+vendidos, por uma cor mais escura, dos assentos ainda
+disponíveis. A empresa monitora, permanentemente,
+o número de assentos já vendidos e compara-o com
+o número total de assentos do ônibus para avaliar a
+necessidade de alocação de veículos extras.</p>
+<p>Na imagem tem-se a informação dos assentos já
+vendidos e dos ainda disponíveis em um determinado
+instante.</p>
+<img src="149.jpg" width="75%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+A razão entre o número de assentos já vendidos e o total
+de assentos desse ônibus, no instante considerado na
+imagem, é
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)16/42</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)16/26</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)26/42</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)42/26</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)42/16</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_148.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_150.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

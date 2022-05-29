@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 146 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 146</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Para chegar à universidade, um estudante utiliza
+um metrô e, depois, tem duas opções:</p>
+<ul>
+<li>seguir num ônibus, percorrendo 2,0 km;</li>
+<li>alugar uma bicicleta, ao lado da estação do metrô,
+seguindo 3,0 km pela ciclovia.</li>
+</ul>
+<p>O quadro fornece as velocidades médias do ônibus
+e da bicicleta, em km/h, no trajeto metrô−universidade.</p>
+<img src="146.jpg" width="70%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+A fim de poupar tempo no deslocamento para a
+universidade, em quais dias o aluno deve seguir pela
+ciclovia?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)Às segundas, quintas e sextas-feiras.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)Às terças e quintas-feiras e aos sábados.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >c)Às segundas, quartas e sextas-feiras.</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)Às terças, quartas e sextas-feiras.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)Às terças e quartas-feiras e aos sábados.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_145.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_147.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

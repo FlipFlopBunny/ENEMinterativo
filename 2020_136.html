@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 136 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 136</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Um administrador resolve estudar o lucro de sua empresa e, para isso, traça o gráfico da receita e do custo de
+produção de seus itens, em real, em função da quantidade de itens produzidos.</p>
+<img src="136.jpg">
+<br>
+<p id="enunciado"> 
+O lucro é determinado pela diferença: Receita – Custo.
+O gráfico que representa o lucro dessa empresa, em função da quantidade de itens produzidos, é
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)<img src="136A.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)<img src="136B.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)<img src="136C.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)<img src="136D.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)<img src="136E.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_135.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_137.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

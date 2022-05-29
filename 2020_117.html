@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 117 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 117</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>Em uma aula sobre metabolismo energético,
+foi apresentado um experimento clássico realizado
+por Engelmann. Um recipiente contendo bactérias
+aeróbias e uma alga verde filamentosa foi submetido
+à iluminação de uma fonte de luz, representada
+pelo microespectro. Após a explicação, um aluno
+esquematizou na lousa o resultado do referido
+experimento.</p>
+<img src="117.jpg">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Considerando a figura, a faixa do microespectro em que a
+alga possui maior taxa de realização fotossintética é a do:
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)Anil.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)Verde.</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)Violeta</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)Amarelo.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)Vermelho.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_116.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_118.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

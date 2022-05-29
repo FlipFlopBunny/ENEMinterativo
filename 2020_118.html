@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>CIÊNCIAS DA NATUREZA 118 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 118</h2>
+<h4>CIÊNCIAS DA NATUREZA Prova Amarela</h4>
+<p>O exame parasitológico de fezes é utilizado para
+detectar ovos de parasitos. Um dos métodos utilizados,
+denominado de centrífugo-flutuação, considera a
+densidade dos ovos em relação a uma solução de
+densidade 1,15 g mL−1. Assim, ovos que flutuam na
+superfície dessa solução são detectados. Os dados
+de densidade dos ovos de alguns parasitos estão
+apresentados na tabela.</p>
+<img src="118.jpg">
+<a id="textsrc">ZERBINI, A. M. Identificação e análise de viabilidade de ovos de helmintos em u m
+sistema de tratamento de esgotos domésticos constituídos de reatores anaeróbios e
+rampas de escoamento superficial. Belo Horizonte: Prosab, 2001 (adaptado).</a>
+<br>
+<p id="enunciado"> 
+Considerando-se a densidade dos ovos e da solução, ovos
+de quais parasitos podem ser detectados por esse método?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)A. lumbricoides, A. suum e S. mansoni.</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)S. mansoni, T. saginata e Ancylostoma.</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >c)Ancylostoma, A. lumbricoides e A. suum.</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)T. saginata, S. mansoni e A. lumbricoides.</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)A. lumbricoides, A. suum e T. saginata.</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_117.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_119.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

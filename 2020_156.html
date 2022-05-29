@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 156 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 156</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>A Lei de Zipf, batizada com o nome do linguista
+americano George Zipf, é uma lei empírica que
+relaciona a frequência ( f ) de uma palavra em um
+dado texto com o seu ranking (r ) . Ela é dada por</p>
+<img src="156.jpg" id="equation">
+<p>O ranking da palavra é a sua posição ao ordenar as
+palavras por ordem de frequência. Ou seja, r = 1 para a
+palavra mais frequente, r = 2 para a segunda palavra mais
+frequente e assim sucessivamente. A e B são constantes
+positivas.</p>
+<a id="textsrc">Diponível em: http://klein.sbm.org.br. Acesso em: 12 ago. 2020 (adatpado).</a>
+<br>
+<p id="enunciado"> 
+Com base nos valores de X = log ( r ) e Y = log ( f ) , é
+possível estimar valores para A e B.No caso hipotético em que a lei é verificada exatamente,
+a relação entre Y e X é
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="correct" >a)<img src="156A.jpg" id="equation"></button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)<img src="156B.jpg" id="equation"></button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)<img src="156C.jpg" id="equation"></button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)<img src="156D.jpg" id="equation"></button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)<img src="156E.jpg" id="equation"></button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_155.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_157.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

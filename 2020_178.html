@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 178 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 178</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Azulejo designa peça de cerâmica vitrificada e/ou
+esmaltada usada, sobretudo, no revestimento de paredes. A
+origem das técnicas de fabricação de azulejos é oriental, mas
+sua expansão pela Europa traz consigo uma diversificação
+de estilos, padrões e usos, que podem ser decorativos,
+utilitários e arquitetônicos.</p>
+<a id="textsrc">Disponível em: www.itaucultural.org.br. Acesso em: 31 jul. 2012.</a>
+<img src="178.jpg" width="100%">
+<p>Entre os octógonos e na borda lateral dessa área,
+será necessária a colocação de 15 azulejos de outros
+formatos para preencher os 15 espaços em branco do
+painel. Uma loja oferece azulejos nos seguintes formatos:</p>
+<pre>
+1 – Triângulo retângulo isósceles;
+2 – Triângulo equilátero;
+3 – Quadrado.
+</pre>
+<br>
+<p id="enunciado"> 
+Os azulejos necessários para o devido preenchimento
+das áreas em branco desse painel são os de formato
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)1</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)3</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)1 e 2</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >d)1 e 3</button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)2 e 3</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_177.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_179.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

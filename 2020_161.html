@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 161 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 161</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Um pé de eucalipto em idade adequada para o corte
+rende, em média, 20 mil folhas de papel A4. A densidade
+superficial do papel A4, medida pela razão da massa de
+uma folha desse papel por sua área, é de 75 gramas por
+metro quadrado, e a área de uma folha de A4 é 0,062
+metro quadrado.</p>
+<a id="textsrc">Disponível em: http://revistagalileu.globo.com. Acesso em: 28 fev. 2013 (adaptado).</a>
+<br>
+<p id="enunciado"> 
+Nessas condições, quantos quilogramas de papel rende,
+em média, um pé de eucalipto?
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)4 301</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)1 500</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)930</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)267</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)93</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_160.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_162.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

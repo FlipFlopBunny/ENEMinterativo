@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 163 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 163</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>O Estatuto do Idoso, no Brasil, prevê certos
+direitos às pessoas com idade avançada, concedendo
+a estas, entre outros benefícios, a restituição de
+imposto de renda antes dos demais contribuintes. A
+tabela informa os nomes e as idades de 12 idosos
+que aguardam suas restituições de imposto de
+renda. Considere que, entre os idosos, a restituição
+seja concedida em ordem decrescente de idade e
+que, em subgrupos de pessoas com a mesma idade,
+a ordem seja decidida por sorteio.</p>
+<img src="163.jpg" width="100%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Nessas condições, a probabilidade de João ser a sétima
+pessoa do grupo a receber sua restituição é igual a
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)1/12</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)7/12</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)1/8</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)5/6</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)1/4</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_162.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_164.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

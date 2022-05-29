@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 170 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 170</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>Nos livros Harry Potter, um anagrama do nome do
+personagem “TOM MARVOLO RIDDLE” gerou a frase
+“I AM LORD VOLDEMORT”.</p>
+<p>Suponha que Harry quisesse formar todos os
+anagramas da frase “I AM POTTER”, de tal forma
+que as vogais e consoantes aparecessem sempre
+intercaladas, e sem considerar o espaçamento entre
+as letras.</p>
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+Nessas condições, o número de anagramas formados
+é dado por
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)9!</button>
+<button type="button" onclick="correctFunction(this.id)" id="b" >b)4!5!</button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)2x4!5!</button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)9!/2</button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >e)4!5!/2</button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_169.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_171.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>

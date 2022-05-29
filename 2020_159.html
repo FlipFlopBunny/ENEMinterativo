@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="questionCSS.css" type="text/css">
+	<script type="text/javascript" src="questionScript.js"></script>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<title>MATEMÁTICA 159 2020</title>
+</head>
+<body>
+
+
+
+<div id="header">
+<h1><a href="index.html">ENEM Interativo</h1>
+<a href="outrasPerguntas.html" id="outrasPerguntas">Outras perguntas</a>
+</div>
+
+
+
+<div id="question">
+<h2>Pergunta 159</h2>
+<h4>MATEMÁTICA Prova Amarela</h4>
+<p>A Figura 1 apresenta uma casa e a planta do seu
+telhado, em que as setas indicam o sentido do escoamento
+da água de chuva. Um pedreiro precisa fazer a planta do
+escoamento da água de chuva de um telhado que tem
+três caídas de água, como apresentado na Figura 2.</p>
+<img src="159.jpg" width="100%">
+<a id="textsrc"></a>
+<br>
+<p id="enunciado"> 
+A figura que representa a planta do telhado da Figura 2 com
+o escoamento da água de chuva que o pedreiro precisa
+fazer é
+</p>
+</div>
+<br>
+<div id="alternatives">
+<button type="button" onclick="correctFunction(this.id)" id="a" >a)<img src="159A.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="correct" >b)<img src="159B.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="c" >c)<img src="159C.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="d" >d)<img src="159D.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="e" >e)<img src="159E.jpg"></button>
+<button type="button" onclick="correctFunction(this.id)" id="chute" >f)eu estaria chutando</button>
+<p id="answer"></p>
+<button type="button" onclick="proximaFunction('2020_Score.html')" id="sair">Sair</button>
+</div>
+<div id="arrows">
+<a class="anterior" onclick="anteriorFunction('2020_158.html')">&laquo;Anterior</a>
+<a class="proxima" onclick="proximaFunction('2020_160.html')">Proxima&raquo;</a>
+</div>
+</body>
+
+</html>
